@@ -16,4 +16,9 @@ Getting Install for MacOs
 5. Проверяем работу через процедуру удаленного вызова 
 `http://localhost:8888/v1/chain/get_info`
 
-6. 
+6. Запуск CLI для EOS  - сleos:
+`cleos -h` // основные команды 
+`cleos -'аргумент'`
+
+7. создание нового аккаунта:
+`cleos get account eosio(название сети где он создается)`
