@@ -20,5 +20,9 @@ Getting Install for MacOs
 `cleos -h` // основные команды 
 `cleos -'аргумент'`
 
-7. создание нового аккаунта:
+7. Cоздание нового аккаунта:
 `cleos get account eosio(название сети где он создается)`
+
+8. Список команд Cleos
+https://github.com/EOSIO/eos/wiki/Command%20Reference
+
