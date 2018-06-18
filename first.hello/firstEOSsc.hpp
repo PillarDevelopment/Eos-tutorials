@@ -9,5 +9,5 @@ public:
 
     // @abi action
     void  hello(account_name account);
-    
+
 };
