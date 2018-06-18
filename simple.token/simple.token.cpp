@@ -1,9 +1,13 @@
 #include <eosiolib/eosio.hpp>
 
 class simpletoken : public eosio::contract {
+
    public:
-      simpletoken( account_name self )
+
+      simpletoken( account_name self ) // скорее всего это переменная
       :contract(self),_accounts( _self, _self){}
+
+        // видимо это невозвращаемый метод transfer с модификатором паблик
 
       void transfer( account_name from, account_name to, uint64_t quantity ) {
          require_auth( from );
@@ -15,16 +19,18 @@ class simpletoken : public eosio::contract {
          add_balance( from, to, quantity );
       }
 
+        // невозвращаемый метод эмиссия - кому и сколько
       void issue( account_name to, uint64_t quantity ) {
          require_auth( _self );
          add_balance( _self, to, quantity );
       }
 
+    // простейшая реализация токена
    private:
       struct account {
          account_name owner;
-         uint64_t     balance;
-
+         uint64_t     balance; // общий баланс
+         // uint64_t currency_balance;
          uint64_t primary_key()const { return owner; }
       };
 
