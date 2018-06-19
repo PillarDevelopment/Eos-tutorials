@@ -1,6 +1,7 @@
-# Eos-tutorials
+![Обложка страницы](https://github.com/PillarDevelopment/Eos-tutorials/blob/master/img/26_big.png)
+## EOSIO Tutorial
 
-Getting Install for MacOs
+Getting Install for *nix oS
 
 1. Устанавливаем Docker для платформы(GUI приложение);
 
@@ -26,53 +27,30 @@ Getting Install for MacOs
 8. Список команд Cleos
 https://github.com/EOSIO/eos/wiki/Command%20Reference
 
+## Гайд по ресурсам:
+1. [Tesnet](http://jungle.cryptolions.io/)
+2. [BP & Voting Portals](http://eosnetworkmonitor.io/)
+3. [Community Portal](https://eosportal.io/)
+4. [Official Docs](https://developers.eos.io/eosio-cpp/v1.0.0/docs)
+5. [Community Docs](https://www.eosdocs.io/resources/apiendpoints/)
+6. [Ask a Question!](https://eosio.stackexchange.com/)
 
-# Гайд по ресурсам:
-
-[Tesnet](http://jungle.cryptolions.io/)
-
-[BP & Voting Portals](http://eosnetworkmonitor.io/)
-
-[Community Portal](https://eosportal.io/)
-<p>
-
-<b>EOS Guides and Resources:
-
-[Official Docs](https://developers.eos.io/eosio-cpp/v1.0.0/docs)
-
-[Community Docs](https://www.eosdocs.io/resources/apiendpoints/)
-
-[Ask a Question!](https://eosio.stackexchange.com/)
-<p>
-
-Block Explorers:
-
+#### Block Explorers:
 [link 1](https://eostracker.io/) [link 2](https://eosmonitor.io/?lang=en)
-<p>
 
-<b>Tool Kits:
+### Tool Kits:
+1. [eosnewyorkio](https://www.eosrp.io/)
+2. [CPU, NET, and RAM cost calculator](https://toolkit.genereos.io/tools)
+3. [Wallet](https://get-scatter.com/)
+4. [RPC Node Endpoints](https://eosnodes.privex.io/)
+5. [Genesis.json Location](https://github.com/EOS-Mainnet/eos/blob/launch-rc-1.0.2/mainnet-genesis.json)
 
-[eosnewyorkio](https://www.eosrp.io/)
-
-[CPU, NET, and RAM cost calculator](https://toolkit.genereos.io/tools)
-<p>
-
-<b>[Wallet](https://get-scatter.com/)
-<p>
-
-<b>[RPC Node Endpoints](https://eosnodes.privex.io/)
-<p>
-
-<b>P2P Connections
+#### P2P Connections
 [link 1](https://eosnodes.privex.io/?config=1)
 [link 2](https://www.eosdocs.io/resources/apiendpoints/)
-<p>
 
-<b>[Genesis.json Location](https://github.com/EOS-Mainnet/eos/blob/launch-rc-1.0.2/mainnet-genesis.json)
-<p>
-
-<b>EOS YouTube Programming Playlist:
-[]()
-[]()
-[]()
-[]()
+#### EOS YouTube Programming Playlist:
+1. []()
+2. []()
+3. []()
+4. []()
