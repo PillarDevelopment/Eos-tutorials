@@ -26,3 +26,53 @@ Getting Install for MacOs
 8. Список команд Cleos
 https://github.com/EOSIO/eos/wiki/Command%20Reference
 
+
+# Гайд по ресурсам:
+
+[Tesnet](http://jungle.cryptolions.io/)
+
+[BP & Voting Portals](http://eosnetworkmonitor.io/)
+
+[Community Portal](https://eosportal.io/)
+<p>
+
+<b>EOS Guides and Resources:
+
+[Official Docs](https://developers.eos.io/eosio-cpp/v1.0.0/docs)
+
+[Community Docs](https://www.eosdocs.io/resources/apiendpoints/)
+
+[Ask a Question!](https://eosio.stackexchange.com/)
+<p>
+
+Block Explorers:
+
+[link 1](https://eostracker.io/) [link 2](https://eosmonitor.io/?lang=en)
+<p>
+
+<b>Tool Kits:
+
+[eosnewyorkio](https://www.eosrp.io/)
+
+[CPU, NET, and RAM cost calculator](https://toolkit.genereos.io/tools)
+<p>
+
+<b>[Wallet](https://get-scatter.com/)
+<p>
+
+<b>[RPC Node Endpoints](https://eosnodes.privex.io/)
+<p>
+
+<b>P2P Connections
+[link 1](https://eosnodes.privex.io/?config=1)
+[link 2](https://www.eosdocs.io/resources/apiendpoints/)
+<p>
+
+<b>[Genesis.json Location](https://github.com/EOS-Mainnet/eos/blob/launch-rc-1.0.2/mainnet-genesis.json)
+<p>
+
+<b>EOS YouTube Programming Playlist:
+[]()
+[]()
+[]()
+[]()
