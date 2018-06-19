@@ -27,13 +27,16 @@ Getting Install for *nix oS
 8. Список команд Cleos
 https://github.com/EOSIO/eos/wiki/Command%20Reference
 
+
+
 ## Гайд по ресурсам:
-1. [Tesnet](http://jungle.cryptolions.io/)
-2. [BP & Voting Portals](http://eosnetworkmonitor.io/)
-3. [Community Portal](https://eosportal.io/)
-4. [Official Docs](https://developers.eos.io/eosio-cpp/v1.0.0/docs)
-5. [Community Docs](https://www.eosdocs.io/resources/apiendpoints/)
-6. [Ask a Question!](https://eosio.stackexchange.com/)
+1. [Official Developers Portal](https://developers.eos.io/)
+2. [Tesnet](http://jungle.cryptolions.io/)
+3. [BP & Voting Portals](http://eosnetworkmonitor.io/)
+4. [Community Portal](https://eosportal.io/)
+5. [Official Docs](https://developers.eos.io/eosio-cpp/v1.0.0/docs)
+6. [Community Docs](https://www.eosdocs.io/resources/apiendpoints/)
+7. [Ask a Question!](https://eosio.stackexchange.com/)
 
 #### Block Explorers:
 [link 1](https://eostracker.io/) [link 2](https://eosmonitor.io/?lang=en)
@@ -50,7 +53,7 @@ https://github.com/EOSIO/eos/wiki/Command%20Reference
 [link 2](https://www.eosdocs.io/resources/apiendpoints/)
 
 #### EOS YouTube Programming Playlist:
-1. []()
-2. []()
-3. []()
-4. []()
+1. [Coding With Crypto Chanel - Smart Contract development](https://www.youtube.com/watch?v=TQoNQDkAecY&list=PLE4o_J32st8GsrBWXPLRY9ZWqf3kInD58)
+2. [EOS Smart Contract Example - Hello World](https://www.youtube.com/watch?v=0kawSbMQ1v8&t=2s)
+3. [EOS Smart Contracts Development Environment set up with Docker](https://www.youtube.com/watch?v=5-gC5Wr7V1o)
+4. [Building Distributed Apps With EOS.IO](https://www.youtube.com/watch?v=E3Tx2DseLGE)
