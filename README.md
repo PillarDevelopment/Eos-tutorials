@@ -18,7 +18,12 @@ Getting Install for *nix oS
 `http://localhost:8888/v1/chain/get_info`
 
 6. Запуск CLI для EOS  - сleos:
-`cleos -h` // основные команды 
+<br>сначала обязательно запустить alias(docker в режиме unpause)
+
+`alias cleos='docker exec eosio /opt/eosio/bin/cleos --wallet-url http://localhost:8888'`
+
+`cleos` // основные команды
+
 `cleos -'аргумент'`
 
 7. Cоздание нового аккаунта:
