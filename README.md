@@ -1,7 +1,7 @@
 ![Обложка страницы](https://github.com/PillarDevelopment/Eos-tutorials/blob/master/img/26_big.png)
-## EOSIO Tutorial
+# EOSIO Tutorial
 
-Getting Install for *nix oS
+#### Getting Install for *nix oS(через Docker)
 
 1. Устанавливаем Docker для платформы(GUI приложение);
 
@@ -18,7 +18,7 @@ Getting Install for *nix oS
 `http://localhost:8888/v1/chain/get_info`
 
 6. Запуск CLI для EOS  - сleos:
-###### !!! Сначала необходимо запустить `alias` (docker в режиме `unpause`) !!!
+###### !!! Сначала необходимо создать псевдоним для cleos `alias` (docker в режиме `unpause`) !!!
 
 `alias cleos='docker exec eosio /opt/eosio/bin/cleos --wallet-url http://localhost:8888'`
 
@@ -32,7 +32,64 @@ Getting Install for *nix oS
 8. Список команд Cleos
 https://github.com/EOSIO/eos/wiki/Command%20Reference
 
+#### через build на локальной машине
+1. * git clone https://github.com/EOSIO/eos --recursive
+   * cd eos
+   * ./eosio_build.sh -s "EOS"
+   * cd build
+   * sudo make install
+2. Создайте файл genesis.json, используя данные генезиса:
+* https://github.com/EOS-Mainnet/eos/blob/launch-rc-1.0.2/mainnet-genesis.json
+* sudo nano ~/.local/share/eosio/nodeos/config/genesis.json
+Копировать, Вставить и Сохранить.
+3. Запустите nodeos один раз, чтобы создать файл initital config.ini.
+* Редактировать sudo nano ~/.local/share/eosio/nodeos/config/config.ini
+4. Добавьте p2p-узлы в config.ini (с сайта https://eosnodes.privex.io/?config=1 )
+* Искать p2p-peer-address =
+5. Добавить плагины в config.ini
+* plugin = eosio::producer_plugin
+* plugin = eosio::wallet_api_plugin
+* plugin = eosio::chain_api_plugin
+* plugin = eosio::http_plugin
+* plugin = eosio::history_api_plugin
+* Поиск plugin =
+6. Измените локальный порт, чтобы он не перекрывался с keosd в config.ini
 
+Поиск http-server-address =
+
+Изменить порт на 8080
+
+7. Запуск nodeos --delete-all-blocks --genesis-json(из каталога gensis.json)
+
+При последующих запусках, не --genesis-jsonуказывая, nodeos будет вытаскивать состояние генезиса из журнала блоков и, конечно же, --delete-all-blocksтоже.
+
+Если nodeos не перезапускается чисто, --replay-blockchainи если это не работает --hard-replay-blockchain.
+
+8. В отдельном терминале запустите keosd с помощью keosd
+
+9. Создать кошелек
+
+cleos --wallet-url http://localhost:8888/ wallet create
+
+* https://developers.eos.io/eosio-cleos/reference#cleos-wallet-create
+
+10. Сохранить пароль кошелька ( очень важно ) и импортировать закрытый ключ в кошелек
+
+cleos --wallet-url http://localhost:8888/ wallet import PRIVATE_KEY
+
+* https://developers.eos.io/eosio-cleos/reference#cleos-wallet-import
+
+11. Выясните полный узел для подключения и запуска получения информации (известные полные узлы ниже)
+
+cleos --wallet-url http://localhost:8888 --url http://[NODE_IP_HERE]:[NODE_PORT_HERE] get info
+
+* https://developers.eos.io/eosio-cleos/reference#cleos-get-info
+
+12. Получайте информацию о своей учетной записи
+
+cleos --wallet-url http://localhost:8888 --url http://[NODE_IP_HERE]:[NODE_PORT_HERE] get account eosuseraaaaa
+
+* https://developers.eos.io/eosio-cleos/reference#cleos-get-accounts
 
 ## Гайд по ресурсам:
 1. [Official Developers Portal](https://developers.eos.io/)
