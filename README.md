@@ -27,11 +27,22 @@
 `cleos -'аргумент'`
 
 7. Cоздание нового аккаунта:
+
 `cleos get account eosio(название сети где он создается)`
 
-8. Список команд Cleos
-https://github.com/EOSIO/eos/wiki/Command%20Reference
+8. Создание нового кошелька:
 
+`cleos wallet create -n newaccount`
+
+`cleos wallet list` список аккаунтов
+
+9. Разблокировка кошелька:
+
+`cleos wallet unlock -n название кощелька --password приватный ключ`
+
+8. [Список команд Cleos](https://github.com/EOSIO/eos/wiki/Command%20Reference)
+
+[+ руководство](https://developers.eos.io/eosio-nodeos/docs/learn-about-wallets-keys-and-accounts-with-cleos)
 #### через build на локальной машине
 1. * git clone https://github.com/EOSIO/eos --recursive
    * cd eos
