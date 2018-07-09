@@ -199,3 +199,8 @@ rm -rfv playground/contracts
 2. [EOS Smart Contract Example - Hello World](https://www.youtube.com/watch?v=0kawSbMQ1v8&t=2s)
 3. [EOS Smart Contracts Development Environment set up with Docker](https://www.youtube.com/watch?v=5-gC5Wr7V1o)
 4. [Building Distributed Apps With EOS.IO](https://www.youtube.com/watch?v=E3Tx2DseLGE)
+
+Тutorials на русском языке:
+
+[Установка ноды EOS](https://golos.io/eos/@chebykin/eosdev-1-ustanovka-nody-eos)
+
