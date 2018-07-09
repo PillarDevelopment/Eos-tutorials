@@ -284,3 +284,5 @@ https://twitter.com/eosnewyork
 https://medium.com/@eosnewyork
 https://steemit.com/@eosnewyork
 https://www.meetup.com/EOS-New-York/
+
+https://golos.io/@chebykin
