@@ -40,7 +40,7 @@
 
 `cleos wallet unlock -n название кощелька --password приватный ключ`
 
-8. [Список команд Cleos](https://github.com/EOSIO/eos/wiki/Command%20Reference)
+8. [Список команд Cleos](https://developers.eos.io/eosio-cleos/reference)
 
 [+ руководство](https://developers.eos.io/eosio-nodeos/docs/learn-about-wallets-keys-and-accounts-with-cleos)
 #### через build на локальной машине
@@ -204,3 +204,83 @@ rm -rfv playground/contracts
 
 [Установка ноды EOS](https://golos.io/eos/@chebykin/eosdev-1-ustanovka-nody-eos)
 
+#### Telegram Resource List
+
+Interested in getting involved in the EOS community? It’s all happening on Telegram and there’s much more than just the main channel. Below is a list of every telegram channel we know of. As STEEM does not allow edits past 7 days please check here for a continuously updated list.
+EOS General Chat (English): https://t.me/EOSproject
+Meetup & Block Producer Channels:
+EOS New York: https://t.me/eosnewyorkchat
+EOS London: https://t.me/EOSLondon
+EOS Nairobi: https://t.me/eosnairobi
+EOS Hong Kong: https://t.me/EOSHongKong 
+EOS Nation: https://t.me/EOSNation
+EOS DAC: https://t.me/eosdacio
+ONO US: https://t.me/ONOUS
+ONO China: https://t.me/ONOCN
+EOS Lao Mao: https://t.me/eoslaomao
+Meet.One: https://t.me/MeetOne
+Meet.One English: https://t.me/MeetOneEnglish
+EOS Union: https://t.me/EOS_Union
+Hello EOS: https://t.me/helloeos123
+EOSYS: https://t.me/EOSYSIO
+EOS Singapore: https://t.me/eoscommunitysingapore
+EOS Tribe: https://t.me/EOSTribe
+EOS Shenzhen: https://t.me/eoshenzhen
+Oraclechain English: https://t.me/OracleChainChat
+AntPool EOS International: https://t.me/AntPoolEOSUS
+EOSio.SG: https://t.me/eosiosg
+EOS.fish English: https://t.me/eosfish_en 
+EOS.fish Chinese: https://t.me/eosfish_zh
+EOS Asia: https://t.me/EOSAsia
+EOS Singapore: https://t.me/eoscommunitysingapore
+EOS Detroit: https://t.me/eos_detroit
+EOS Dallas: https://t.me/eosdfw
+AcroEOS: https://t.me/AcroEOS
+EOS Silicon Valley: https://t.me/eossv
+EOS SEA: https://t.me/eossea
+EOS Test Networks:
+EOS Community Test Network: https://t.me/CommunityTestnet
+EOS Jungle Test Network: https://t.me/jungletestnet
+EOS Scholar Test Network: https://t.me/ScholarTestnet
+EOS Developers:
+EOS Index (List of current EOS projects): https://t.me/eosindex
+EOS Developers: https://t.me/joinchat/EgOVjkPktgfUS3kt14FStw
+EOS Game Developers: https://t.me/EosGameDevelopers
+EOSDocs.IO (EOS Documentation): https://t.me/eosdocs
+EOS Price and Trading:
+EOS Price Discussion: https://t.me/EOSPrice
+EOS Topic Specific Channels:
+EOS Block Producers: https://t.me/EOSPros
+EOS Governance: https://t.me/EOSGov
+EOS dApp Creators: https://t.me/EOSDAC
+EOS Opportunities: https://t.me/eos_opportunities
+EOS Design: https://t.me/EOSdesign
+EOS Marketing: https://t.me/EOSmarketing
+EOS BP Startups: https://t.me/bpstartupbusiness
+EOS Jobs: https://t.me/eos_jobs
+EOS BP Infrastructure: https://t.me/BPInfrastructure
+EOS News:
+EOS Go Announcements: https://t.me/eosgo_announcements
+EOS Airdrops: https://t.me/EOS_Airdrop
+Dan Larimer Bot: https://t.me/daneos
+EOS Airdrops #2: https://t.me/airdropsforeos
+dApps:
+Chintai EOS: https://t.me/chintaiEOS
+Everipedia: https://t.me/everipedia
+Scatter: https://t.me/Scatter
+Non-English General Channels
+EOS Arabia: https://t.me/EOS_Arabia
+KOREOS: https://t.me/koreosio
+EOS Korea: https://t.me/EOSIOKorea
+EOS China: https://t.me/EOSCN
+EOS Romania: https://t.me/eosro
+EOS Russian: https://t.me/eos_cryptocurrency
+EOS Italia: https://t.me/EosITA
+Know of any we missed? Leave a comment below or contact us using one of the methods listed.
+EOS New York is a block producer candidate for the EOS.IO Blockchain
+
+https://www.eosnewyork.io/
+https://twitter.com/eosnewyork
+https://medium.com/@eosnewyork
+https://steemit.com/@eosnewyork
+https://www.meetup.com/EOS-New-York/
