@@ -1,6 +1,30 @@
 ![Обложка страницы](https://github.com/PillarDevelopment/Eos-tutorials/blob/master/img/26_big.png)
 # EOSIO Tutorial
 
+
+#### Getting Install for *nix oS(через официальную сборку)
+1. `git clone https://github.com/eosio/eos --recursive` 
+
+2. `cd eos`
+
+3. `./eosio_build.sh`
+
+4. В случае отсутсвия пакетов (not found) - выполнить установку недостающих черех `brew install [package]`
+
+5. В случае отличных версий выполнить необходимые `PATH`
+
+6. `./build`
+
+7. `sudo make install`
+
+8. или:
+
+`./programs/eosd/eosd` - демон ноды блокчейна
+
+`./programs/eosc/eosc` - CLI клиент для ноды блокчейна
+
+<p>
+
 #### Getting Install for *nix oS(через Docker)
 
 1. Устанавливаем Docker для платформы(GUI приложение);
