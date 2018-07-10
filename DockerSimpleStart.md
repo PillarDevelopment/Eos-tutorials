@@ -16,19 +16,16 @@
 
 5) Запуск контейнеров nodeos и keosd в docker 
 
-`docker volume create --name=nodeos-data-volume
+`docker volume create --name=nodeos-data-volume`
 
-docker volume create --name=keosd-data-volume
+`docker volume create --name=keosd-data-volume`
 
-docker-compose up -d`
+`docker-compose up -d`
 
 6. Устанавливаем псевдоним для CLI 
 
 `alias cleos='docker-compose exec keosd /opt/eosio/bin/cleos -u http://nodeosd:8888 --wallet-url http://localhost:8900'`
 
-7.
+7. `cleos wallet create` //     
 
-8.
-
-9.
-
+8. `cleos create key` // 
