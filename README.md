@@ -7,7 +7,7 @@
 
 2. `cd eos`
 
-3. `./eosio_build.sh`
+3. `./eosio_build.sh` (установка занимает порядка 1 часа на Darwin 8 GB RAM, SSD, 2,4 GHz)
 
 4. В случае отсутсвия пакетов (not found) - выполнить установку недостающих черех `brew install [package]`
 
