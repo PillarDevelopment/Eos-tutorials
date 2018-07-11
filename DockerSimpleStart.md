@@ -26,6 +26,16 @@
 
 `alias cleos='docker-compose exec keosd /opt/eosio/bin/cleos -u http://nodeosd:8888 --wallet-url http://localhost:8900'`
 
-7. `cleos wallet create` //     
+7. `cleos wallet create` //  PW5K5eyTvjFZUVeJ5iD3mHVBH3huQeBDB2WH5LTdKxEuPAdu9Jes7   
+ 
+8. `cleos create key` // Private key: 5JsJrJ42MJ29JS3c3JmDre41nge7YC9iBLyUaCRjQ438QsmMhDH
+                         Public key: EOS8TgGiijRDyu82gR1qYkHptXHhAhz6rFhAF7u6Q7SyHxoZdvXt7
 
-8. `cleos create key` // 
+
+
+
+#### Conect to Jungle Test Network
+
+ [Official Github](https://github.com/CryptoLions/EOS-Jungle-Testnet)  
+ 
+ [Sign In](http://jungle.cryptolions.io/#register)
