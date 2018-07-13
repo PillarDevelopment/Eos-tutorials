@@ -306,3 +306,5 @@ https://steemit.com/@eosnewyork
 https://www.meetup.com/EOS-New-York/
 
 https://golos.io/@chebykin
+
+проблемы с подключением к keosd `https://github.com/EOSIO/eos/issues/3879`
