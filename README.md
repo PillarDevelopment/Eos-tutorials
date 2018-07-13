@@ -7,7 +7,7 @@
 
 2. `cd eos`
 
-3. `./eosio_build.sh` (установка занимает порядка 1 часа на Darwin 8 GB RAM, SSD, 2,4 GHz)
+3. `./eosio_build.sh` (установка занимает порядка 20 минут на Darwin 8 GB RAM, SSD, 2,4 GHz)
 
 4. В случае отсутсвия пакетов (not found) - выполнить установку недостающих черех `brew install [package]`
 
@@ -17,11 +17,7 @@
 
 7. `sudo make install`
 
-8. или:
-
-`./programs/eosd/eosd` - демон ноды блокчейна
-
-`./programs/eosc/eosc` - CLI клиент для ноды блокчейна
+8. `sudo make test`
 
 <p>
 
