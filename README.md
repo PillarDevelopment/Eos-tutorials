@@ -314,3 +314,5 @@ https://golos.io/@chebykin
 [голосование через scatter](https://medium.com/eos-new-york/your-vote-matters-4-how-to-vote-on-the-eos-mainnet-ca1b02ebcde1)
 
 [алиасы для команд](https://developers.eos.io/eosio-cpp/docs/aliasing-eosio-components)
+
+[вариант решения проблем с keosd running?](https://eosio.stackexchange.com/questions/649/keosd-connection-error/858#858)
