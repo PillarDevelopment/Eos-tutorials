@@ -204,7 +204,7 @@ rm -rfv playground/contracts
 [link 1](https://eostracker.io/) [link 2](https://eosmonitor.io/?lang=en)
 
 ### Tool Kits:
-1. [eosnewyorkio](https://www.eosrp.io/)
+1. [eosnewyorkio](https://www.eosrp.io)
 2. [CPU, NET, and RAM cost calculator](https://toolkit.genereos.io/tools)
 3. [Wallet](https://get-scatter.com/)
 4. [RPC Node Endpoints](https://eosnodes.privex.io/)
@@ -308,3 +308,9 @@ https://www.meetup.com/EOS-New-York/
 https://golos.io/@chebykin
 
 проблемы с подключением к keosd `https://github.com/EOSIO/eos/issues/3879`
+
+[пошаговое создание dapp с golos.io](https://golos.io/eos/@cryptolions/kak-sozdat-decentralizovannoe-prilozhenie-eos-prostoe-rukovodstvo)
+
+[голосование через scatter](https://medium.com/eos-new-york/your-vote-matters-4-how-to-vote-on-the-eos-mainnet-ca1b02ebcde1)
+
+[алиасы для команд](https://developers.eos.io/eosio-cpp/docs/aliasing-eosio-components)
