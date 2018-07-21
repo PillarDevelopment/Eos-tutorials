@@ -34,3 +34,5 @@ int main() {
 // transfer
 // tokenOfOwnerByIndex
 // tokenMetadata - структура
+
+// https://github.com/ethereum/EIPs/issues/875 - issue для ethereum's EIPS.
