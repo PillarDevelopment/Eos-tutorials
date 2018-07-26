@@ -316,3 +316,5 @@ https://golos.io/@chebykin
 [алиасы для команд](https://developers.eos.io/eosio-cpp/docs/aliasing-eosio-components)
 
 [вариант решения проблем с keosd running?](https://eosio.stackexchange.com/questions/649/keosd-connection-error/858#858)
+
+/////
