@@ -13,23 +13,25 @@
 
 5. В случае отличных версий выполнить необходимые `PATH`
 
-6. `./build`
+6. cd eos
 
-7. `sudo make install`
+7. `./build`
 
-8. `sudo make test`
+8. `./eosio_install.sh`
+
+9. `sudo make test`
 
 <p>
 
-#### Getting Install for *nix oS(через Docker)
+#### Getting Install for *nix oS(через Docker) - наиболее предпочтителен для локального запуска ноды
 
 1. Устанавливаем Docker для платформы(GUI приложение);
 
 2. инсталируем образ в контейнер docker через команду в терминале: 
 `docker pull eosio/eos-dev`
 
-3. Запускаем ноду командой: 
-`sudo docker run --rm --name eosio -d -p 8888:8888 -p 9876:9876 -v /tmp/work:/work -v /tmp/eosio/data:/mnt/dev/data -v /tmp/eosio/config:/mnt/dev/config eosio/eos-dev  /bin/bash -c "nodeos -e -p eosio --plugin eosio::wallet_api_plugin --plugin eosio::wallet_plugin --plugin eosio::producer_plugin --plugin eosio::history_plugin --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin --plugin eosio::http_plugin -d /mnt/dev/data --config-dir /mnt/dev/config --http-server-address=0.0.0.0:8888 --access-control-allow-origin=* --contracts-console"
+3. Запускаем ноду командой: // актуальная рабочая версия eosio^1.1.6
+`sudo docker run --rm --name eosio -d -p 8888:8888 -p 9876:9876 -v /tmp/work:/work -v /tmp/eosio/data:/mnt/dev/data -v /tmp/eosio/config:/mnt/dev/config eosio/eos-dev:v1.1.6 /bin/bash -c "nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::history_plugin --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin --plugin eosio::http_plugin --plugin eosio::wallet_plugin --plugin eosio::wallet_api_plugin -d /mnt/dev/data --config-dir /mnt/dev/config --http-server-address=0.0.0.0:8888 --access-control-allow-origin=* --contracts-console --http-validate-host=false"
 `
 4. Проверяем работу в Cli:
 `sudo docker logs --tail 10 eosio`
@@ -40,7 +42,7 @@
 6. Запуск CLI для EOS  - сleos:
 ###### !!! Сначала необходимо создать псевдоним для cleos `alias` (docker в режиме `unpause`) !!!
 
-`alias cleos='docker exec eosio /opt/eosio/bin/cleos --wallet-url http://localhost:8888'`
+`alias cleos='docker exec eosio /opt/eosio/bin/cleos --wallet-url http://localhost:8888'`(но лучше использовать автоскрипт устнавку)
 
 `cleos` // основные команды
 
@@ -52,7 +54,7 @@
 
 8. Создание нового кошелька:
 
-`cleos wallet create -n newaccount`
+`cleos wallet create -n newaccount` --to-console
 
 `cleos wallet list` список аккаунтов
 
